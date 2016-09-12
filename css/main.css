@@ -1,3 +1,7 @@
+*{
+	font-family: "Roboto";
+}
+
 .text-center{
 	text-align: center;
 }
@@ -15,10 +19,11 @@
 	text-align: center;
 	border-radius: 5px;
 	box-shadow:5px 5px ;
-	border: 1px black solid;
 }
 
-
+.boton a:hover{
+	font-size: 20px;
+}
 .boton:hover{
 	background-color:black;
 	color:#f6a619;
@@ -26,20 +31,38 @@
 
 li a:hover{
 	color:black;
-	font-size: 30px;
+	font-size:30px;
 }
 
  .uno{
 	width: 100px;
 	margin-left:100px;
+	margin-top: 20px;
  }
-
 
  a{
  	text-decoration:none;
  	color:white;
- 	
  }
+
+.logo{
+	margin:10px 0;
+
+}
+
+nav{
+	margin-top:40px;
+}
+
+.menu{
+	text-align: center;
+	display: inline;
+	padding: 15px;	
+}
+
+nav ul li a{
+	color:#f6a619; 
+}
 
 .fondo{
 	background-image: url(../img/fondo.jpg);
@@ -48,18 +71,9 @@ li a:hover{
 	box-sizing:border-box;
 	margin-top: 75px;
 }
-.menu{
-	text-align: center;
-	display: inline;
-	padding: 15px;
-}
-
-nav ul li a{
-	color:#f6a619; 
-}
 
 .box-2{
-	background-color:#eaebe8; 
+	background-color:#eaebe8;
 }
 
 .box-3{
@@ -68,10 +82,11 @@ nav ul li a{
 	padding:10px;
 	margin:20px;
 	text-align:center;
+	height:550px;
 }
  .dos{
  	width:50%;
- 	margin:10px auto;
+ 	margin:15px auto;
  }
 
 .f-1{
