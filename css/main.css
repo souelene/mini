@@ -21,7 +21,7 @@
 	box-shadow:5px 5px ;
 }
 
-.boton a:hover{
+.boton:hover a{
 	font-size: 20px;
 }
 .boton:hover{
